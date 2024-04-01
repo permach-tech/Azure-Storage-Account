@@ -22,6 +22,6 @@ jobs:
           inlineScript: |
             az deployment group create \
             --name StorageAccountDeployment \
-            --resource-group persellresume \
+            --resource-group ${{ secrets.AZURE_RG }} \
             --template-file armtemplates/azuredeploy.json \
             --parameters storageAccountType=Standard_GRS
