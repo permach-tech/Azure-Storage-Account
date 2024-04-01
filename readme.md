@@ -1,0 +1,1 @@
+Simple Azure Storage Account creation for Azure
